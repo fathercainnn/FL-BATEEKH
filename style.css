@@ -1,4 +1,3 @@
-
 * {
     margin: 0;
     padding: 0;
@@ -60,6 +59,7 @@ nav a.active {
     position: relative;
     width: 50px;
     margin: 10;
+    cursor: pointer;
 }
 
 .icon-img:hover {
@@ -123,3 +123,84 @@ main{
 .container span{
     background-color: rgb(61, 189, 131);
 } 
+
+.post-slider{
+    position: relative;
+}
+.post-slider .slider-title{
+    text-align: center;
+    margin: 30px auto;
+    font-family: arial;
+    color: white;
+    font-size: 40px;
+}
+
+.post-slider .next{
+    position: absolute;
+    top: 50%;
+    right: 30px;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+.post-slider .prev{
+    position: absolute;
+    top: 50%;
+    left: 30px;
+    font-size: 3em;
+    color: white;
+    cursor: pointer;
+}
+
+.post-slider .post-wrapper{
+    width: 84%;
+    height: 350px;
+    margin: 0px auto;
+    overflow: hidden;
+    padding: 10px 0px 10px 0px;
+}
+
+.post-slider .post-wrapper .post{
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 1rem 1rem 1rem -1rem black;
+    display: inline-block;
+    height: 330px;
+    margin: 0px 10px;
+    width: 300px
+
+}
+
+.post-slider .post-wrapper .post .post-info{
+    height: 130px;
+    padding: 0px 10px;
+
+}
+
+
+
+.post-slider .post-wrapper .post .slider-image{
+    width: 100%;
+    height: 200px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+
+}
+
+.info-title{
+    color: black;
+    font-family: Arial;
+    font-size: 20px;
+    margin-top: 5px;
+}
+
+.page-wrapper a:hover{
+    border-bottom: 2px solid ;
+
+}
+
+.icons{
+    font-size: 12px;
+
+}
